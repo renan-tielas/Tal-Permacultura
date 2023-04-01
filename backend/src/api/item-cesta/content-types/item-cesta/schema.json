@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "item_cestas",
+  "info": {
+    "singularName": "item-cesta",
+    "pluralName": "item-cestas",
+    "displayName": "Item Cesta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Descricao": {
+      "type": "string"
+    },
+    "Foto": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Valor": {
+      "type": "decimal"
+    },
+    "categorias": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::categoria.categoria",
+      "mappedBy": "item_cestas"
+    },
+    "Ativo": {
+      "type": "boolean"
+    }
+  }
+}
