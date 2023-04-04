@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assessorias",
+  "info": {
+    "singularName": "assessoria",
+    "pluralName": "assessorias",
+    "displayName": "Assessorias",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Descricao_do_trabalho": {
+      "type": "richtext"
+    },
+    "Exemplos": {
+      "type": "richtext"
+    },
+    "Imagens": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Processo_de_Trabalho": {
+      "type": "richtext"
+    },
+    "Contrate_nos": {
+      "type": "richtext"
+    },
+    "Tecnicas": {
+      "type": "richtext"
+    }
+  }
+}

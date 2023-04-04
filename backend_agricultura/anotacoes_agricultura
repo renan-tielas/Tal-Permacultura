@@ -1,0 +1,100 @@
+Planta
+
+Nome da Planta
+Demanda nutricional: pequena, média, grande
+Demanda de luz: sombra, meia-sombra, pleno sol
+Demanda de água: pequena, média, grande
+Ciclo de vida: 1 mês, 2 meses, 3 meses, 4 meses, 6 meses, 1 ano, anos
+Época de plantio: primavera, verão, outono, inverno
+Época de colheita: primavera, verão, outono, inverno
+Propagação: sementes, estacas, alporquia, divisão de touceiras
+Usos: alimentação, adubação verde, medicinal, ornamental
+Estrato: pequeno, baixo, médio, alto, emergente
+Deficiências de nutrientes: nitrogênio, fósforo, potássio, cálcio, magnésio, enxofre, cobre, manganês, molibdênio, cloro, sódio
+Espaçamento: 15 cm, 30 cm, 50 cm, 1 m, 1.5 m, 2 m
+
+As categorias de Estratos de altura das plantas são:
+
+Rasteira: plantas com menos de 20 cm de altura;
+Herbácea: plantas com altura entre 20 cm e 1 m;
+Arbustiva: plantas com altura entre 1 m e 5 m;
+Arbórea: plantas com mais de 5 m de altura.
+
+
+Deficiência de nitrogênio: amarelamento das folhas, crescimento reduzido;
+Deficiência de fósforo: crescimento reduzido, raízes pouco desenvolvidas;
+Deficiência de potássio: manchas nas folhas, crescimento reduzido;
+Deficiência de cálcio: pontas das folhas queimadas, crescimento reduzido;
+Deficiência de magnésio: amarelamento das folhas, crescimento reduzido;
+Deficiência de enxofre: folhas amarelas ou pálidas, crescimento lento, menor produção de clorofila, menor tamanho das folhas.
+Deficiência de cobre: folhas pálidas com bordas marrons ou secas, crescimento lento, menor tamanho das folhas.
+Deficiência de manganês: clorose (folhas amareladas), manchas ou pontos castanhos nas folhas, crescimento lento.
+Deficiência de molibdênio: folhas amareladas, diminuição no crescimento, menor produção de clorofila, menor tamanho das folhas.
+Deficiência de cloro: clorose nas folhas, queda precoce das folhas, menor produção de clorofila, menor tamanho das folhas.
+Deficiência de sódio: necrose nas bordas das folhas, clorose nas folhas, crescimento lento, menor tamanho das folhas.
+
+
+
+
+
+Canteiros1:
+
+Localização: (latitude, longitude)
+Dimensões: (comprimento, largura, área)
+Preparo do solo: (arado, nivelamento, adubação verde, cal, torta de mamona, composto, estrume)
+Umidade do solo: (seco, úmido, encharcado)
+Irrigação: (manual, automático, gotejamento, aspersão)
+Luminosidade: (pleno sol, meia-sombra, sombra)
+Inclinação: (plano, levemente inclinado, moderadamente inclinado, fortemente inclinado)
+Fertilidade: (baixa, média, alta)
+Plantas: (Plantas1)
+
+Demandas:
+
+Plantio: (15cm, 30cm, 50cm, 1m, 1.5m, 2m)
+Adubação: (1 mês, 2 meses, 3 meses)
+Irrigação: (manual, automático, gotejamento, aspersão)
+Capina: (1 mês, 2 meses, 3 meses)
+Colheita: (1 mês, 2 meses, 3 meses, 4 meses, 5 meses, 6 meses, 7 meses, 8 meses, 9 meses, 10 meses, 11 meses, 12 meses)
+
+PlantasPlantadas1:
+
+Nome da planta
+Espaçamento entre plantas: (15cm, 30cm, 50cm, 1m, 1.5m, 2m)
+Quantidade de plantas
+Estrato relativo ao canteiro: (pequeno, baixo, médio, alto, emergente)
+Adubação realizada: (adubação verde, cal, torta de mamona, composto, estrume)
+
+
+
+
+
+
+
+
+
+
+
+Canteiros1:
+
+Localização: (latitude, longitude)
+Dimensões: (comprimento, largura, área)
+Preparo do solo: (arado, gradeação, nivelamento, adubação)
+Umidade do solo: (seco, úmido, encharcado)
+Irrigação: (manual, automático, gotejamento, aspersão)
+Luminosidade: (pleno sol, meia sombra, sombra)
+Inclinação: (plano, levemente inclinado, moderadamente inclinado, fortemente inclinado)
+Fertilidade: (baixa, média, alta)
+Plantas:
+Alertas: Em quanto tempo, motivos.
+Demandas: Adubação Tal, Poda Tal, Colheita Tal.
+
+
+
+PlantasPlantadas1:
+
+Nome da Planta: string
+Quantidade: int
+Espaçamento: string (15cm, 30cm, 50cm, 1m, 1.5m, 2m)
+Estrato Relativo: string (pequeno, baixo, médio, alto, emergente)
+Adubação Realizada: string

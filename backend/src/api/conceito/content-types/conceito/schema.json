@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conceitos",
+  "info": {
+    "singularName": "conceito",
+    "pluralName": "conceitos",
+    "displayName": "Conceitos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Conceito": {
+      "type": "string"
+    },
+    "Descricao_curta": {
+      "type": "string"
+    },
+    "Descricao_longa": {
+      "type": "richtext"
+    },
+    "Imagens": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "conceitos_categorias": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::conceitos-categoria.conceitos-categoria",
+      "mappedBy": "conceitos"
+    }
+  }
+}

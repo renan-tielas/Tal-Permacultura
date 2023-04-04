@@ -1,16 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "itens_cesta",
+  "collectionName": "components_item_cesta_item_cestas",
   "info": {
-    "singularName": "item-cesta",
-    "pluralName": "itens-cesta",
-    "displayName": "Cesta Itens",
+    "displayName": "Item Cesta",
     "description": ""
   },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
+  "options": {},
   "attributes": {
     "Titulo": {
       "type": "string"
@@ -19,11 +13,13 @@
       "type": "string"
     },
     "Valor": {
-      "type": "decimal",
-      "required": true
+      "type": "decimal"
     },
     "Quantidade": {
       "type": "integer"
+    },
+    "Ativo": {
+      "type": "boolean"
     },
     "Foto": {
       "type": "media",
@@ -36,14 +32,10 @@
         "audios"
       ]
     },
-    "Ativo": {
-      "type": "boolean"
-    },
-    "categorias": {
+    "cesta_categoria": {
       "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::categoria.categoria",
-      "mappedBy": "itens_cesta"
+      "relation": "oneToOne",
+      "target": "api::categoria.categoria"
     }
   }
 }

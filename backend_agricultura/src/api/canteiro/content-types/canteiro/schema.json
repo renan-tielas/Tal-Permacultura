@@ -1,0 +1,106 @@
+{
+  "kind": "collectionType",
+  "collectionName": "canteiros",
+  "info": {
+    "singularName": "canteiro",
+    "pluralName": "canteiros",
+    "displayName": "Canteiros",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nome_do_Canteiro": {
+      "type": "string"
+    },
+    "Dimensoes": {
+      "type": "float"
+    },
+    "Preparo_do_solo": {
+      "type": "enumeration",
+      "enum": [
+        "arado",
+        "adubação verde",
+        "cal",
+        "produtos"
+      ]
+    },
+    "Umidade_do_solo": {
+      "type": "enumeration",
+      "enum": [
+        "seco",
+        "médio",
+        "molhado",
+        "encharcado"
+      ]
+    },
+    "Irrigacao": {
+      "type": "enumeration",
+      "enum": [
+        "Gotejamento",
+        "Aspersão"
+      ]
+    },
+    "Luminosidade": {
+      "type": "enumeration",
+      "enum": [
+        "pleno sol",
+        "meia sombra",
+        "sombra"
+      ]
+    },
+    "Inclinacao": {
+      "type": "enumeration",
+      "enum": [
+        "plano",
+        "levemente inclinado",
+        "moderadamente inclinado",
+        "fortemente inclinado"
+      ]
+    },
+    "Fertilidade": {
+      "type": "enumeration",
+      "enum": [
+        "Baixa",
+        "Media",
+        "Alta"
+      ]
+    },
+    "Alertas_Temporais": {
+      "type": "richtext"
+    },
+    "Demandas_Especificas": {
+      "type": "richtext"
+    },
+    "plantas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::planta.planta"
+    },
+    "Data_preparo_Canteiro": {
+      "type": "date"
+    },
+    "Planta_Plantada": {
+      "type": "component",
+      "repeatable": true,
+      "component": "planta-plantada.planta-plantada"
+    },
+    "Demandas_canteiro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "demandas-canteiro.demandas-canteiro"
+    },
+    "Demanda_especifica": {
+      "type": "component",
+      "repeatable": true,
+      "component": "demanda-especifica.demanda-especifica"
+    },
+    "setor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::setor.setor"
+    }
+  }
+}

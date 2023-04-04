@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "boulders",
+  "info": {
+    "singularName": "boulder",
+    "pluralName": "boulders",
+    "displayName": "Boulder"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    },
+    "Fotos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "Legenda_com_categorias": {
+      "type": "richtext"
+    },
+    "Descricao": {
+      "type": "richtext"
+    }
+  }
+}

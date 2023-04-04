@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "setores",
+  "info": {
+    "singularName": "setor",
+    "pluralName": "setores",
+    "displayName": "Setor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nome_do_Setor": {
+      "type": "string"
+    },
+    "canteiros": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::canteiro.canteiro"
+    }
+  }
+}

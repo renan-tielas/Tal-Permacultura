@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_demanda_especifica_demanda_especificas",
+  "info": {
+    "displayName": "Demanda_especifica"
+  },
+  "options": {},
+  "attributes": {
+    "Demanda": {
+      "type": "string"
+    },
+    "Descricao_da_demanda": {
+      "type": "richtext"
+    },
+    "Prazo": {
+      "type": "enumeration",
+      "enum": [
+        "o 1 mês",
+        "o 2 meses",
+        "o 3 meses",
+        "o 4 meses",
+        "o 5 meses",
+        "o 6 meses",
+        "o 7 meses",
+        "o 8 meses",
+        "o 9 meses",
+        "o 10 meses",
+        "o 11 meses",
+        "o 12 meses"
+      ]
+    }
+  }
+}

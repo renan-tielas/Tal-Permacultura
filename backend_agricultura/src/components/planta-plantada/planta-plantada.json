@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_planta_plantada_planta_plantadas",
+  "info": {
+    "displayName": "Planta_Plantada",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    },
+    "Espacamento_entre_si": {
+      "type": "enumeration",
+      "enum": [
+        "o 15 cm",
+        "o 30 cm",
+        "o 50 cm",
+        "o 1 m",
+        "o 1,5 m",
+        "o 2 m"
+      ]
+    },
+    "Quantidade": {
+      "type": "integer"
+    },
+    "Estrato_relativo_ao_canteiro": {
+      "type": "enumeration",
+      "enum": [
+        "pequeno",
+        "baixo",
+        "médio",
+        "alto",
+        "emergente"
+      ]
+    },
+    "Adubacao_realizada": {
+      "type": "enumeration",
+      "enum": [
+        "Adubação verde",
+        "Cal",
+        "Torta de mamona",
+        "Composto",
+        "Estrume"
+      ]
+    },
+    "Data_Plantio": {
+      "type": "date"
+    }
+  }
+}

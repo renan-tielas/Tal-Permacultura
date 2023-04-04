@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_demandas_canteiro_demandas_canteiros",
+  "info": {
+    "displayName": "Demandas_Canteiro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Espacamento_vago_para_plantio": {
+      "type": "enumeration",
+      "enum": [
+        "o 15cm",
+        "o 30cm",
+        "o 50cm",
+        "o 1m",
+        "o 1.5m",
+        "o 2m"
+      ]
+    },
+    "Adubacao_Necessaria_em": {
+      "type": "enumeration",
+      "enum": [
+        "o 1 mês",
+        "o 2 meses",
+        "o 3 meses"
+      ]
+    },
+    "Irrigacao_necessaria": {
+      "type": "enumeration",
+      "enum": [
+        "manual",
+        "automático",
+        "gotejamento",
+        "aspersão"
+      ]
+    },
+    "Capina_necessaria_em": {
+      "type": "enumeration",
+      "enum": [
+        "o 1 mês",
+        "o 2 meses",
+        "o 3 meses"
+      ]
+    },
+    "Colheita_em": {
+      "type": "enumeration",
+      "enum": [
+        "o 1 mês",
+        "o 2 meses",
+        "o 3 meses",
+        "o 4 meses",
+        "o 5 meses",
+        "o 6 meses",
+        "o 7 meses",
+        "o 8 meses",
+        "o 9 meses",
+        "o 10 meses",
+        "o 11 meses",
+        "o 12 meses"
+      ]
+    }
+  }
+}

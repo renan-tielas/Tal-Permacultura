@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicos",
+  "info": {
+    "singularName": "servico",
+    "pluralName": "servicos",
+    "displayName": "Serviço",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Apresentacao": {
+      "type": "richtext"
+    },
+    "Avaliacao": {
+      "type": "richtext"
+    },
+    "Projeto": {
+      "type": "richtext"
+    },
+    "Preparo_do_terreno": {
+      "type": "richtext"
+    },
+    "Construcao_da_bacia": {
+      "type": "richtext"
+    },
+    "Plantio": {
+      "type": "richtext"
+    },
+    "Monitoramento_e_manutencao": {
+      "type": "richtext"
+    },
+    "Abordagem_do_negocio": {
+      "type": "richtext"
+    },
+    "Titulo2": {
+      "type": "string"
+    },
+    "Titulo3": {
+      "type": "string"
+    },
+    "Titulo4": {
+      "type": "string"
+    },
+    "Titulo5": {
+      "type": "string"
+    },
+    "Titulo6": {
+      "type": "string"
+    },
+    "Titulo7": {
+      "type": "string"
+    },
+    "Titulo8": {
+      "type": "string"
+    }
+  }
+}

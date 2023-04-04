@@ -1,0 +1,144 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plantas",
+  "info": {
+    "singularName": "planta",
+    "pluralName": "plantas",
+    "displayName": "Planta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    },
+    "Demanda_nutricional": {
+      "type": "enumeration",
+      "enum": [
+        "Pequena",
+        "Média",
+        "Grande"
+      ]
+    },
+    "Demanda_luz": {
+      "type": "enumeration",
+      "enum": [
+        "Pequena",
+        "Média",
+        "Grande"
+      ]
+    },
+    "Demanda_agua": {
+      "type": "enumeration",
+      "enum": [
+        "Pequena",
+        "Média",
+        "Grande"
+      ]
+    },
+    "Ciclo_vida": {
+      "type": "enumeration",
+      "enum": [
+        "Um mês",
+        "Dois meses ",
+        "Três meses",
+        "Quatro meses",
+        "Seis meses",
+        "Um ano",
+        "Anos"
+      ]
+    },
+    "Epoca_plantio": {
+      "type": "enumeration",
+      "enum": [
+        "Primavera",
+        "Verão",
+        "Outono",
+        "Inverno"
+      ]
+    },
+    "Epoca_colheita": {
+      "type": "enumeration",
+      "enum": [
+        "Primavera",
+        "Verão",
+        "Outono",
+        "Inverno"
+      ]
+    },
+    "Propagacao": {
+      "type": "enumeration",
+      "enum": [
+        "Espontanea",
+        "Sementes",
+        "Mudas",
+        "Estaquia",
+        "Divisão de touceiras",
+        "Enxertia",
+        "Alporquia",
+        "Multiplicação por brotação"
+      ]
+    },
+    "Deficiencias": {
+      "type": "enumeration",
+      "enum": [
+        "Murcha",
+        "Queima das folhas",
+        "Amarelamento das folhas",
+        "Queda prematura das folhas",
+        "Lesões nas folhas",
+        "Manchas nas folhas",
+        "Estiolamento",
+        "Ataque de pragas (ex: pulgões, ácaros, cochonilhas)"
+      ]
+    },
+    "Usos": {
+      "type": "enumeration",
+      "enum": [
+        "Alimentação",
+        "Adubação Verde",
+        "Medicinal",
+        "Ornamental",
+        "Bioconstrução"
+      ]
+    },
+    "atividades": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::atividade.atividade",
+      "mappedBy": "plantas"
+    },
+    "Anotacoes": {
+      "type": "richtext"
+    },
+    "Quantidade": {
+      "type": "integer"
+    },
+    "Unidade_da_quantidade": {
+      "type": "string"
+    },
+    "Estrato": {
+      "type": "enumeration",
+      "enum": [
+        "rasteira",
+        "herbácea",
+        "arbustiva",
+        "arbórea"
+      ]
+    },
+    "Espacamento": {
+      "type": "enumeration",
+      "enum": [
+        "o 15 cm",
+        "o 30 cm",
+        "o 50 cm",
+        "o 1 m",
+        "o 1.5 m",
+        "o 2 m"
+      ]
+    }
+  }
+}

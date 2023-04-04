@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_categorias_cesta_categorias_cestas",
+  "info": {
+    "displayName": "Categorias Cesta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Beneficiados": {
+      "type": "string"
+    },
+    "Descricao": {
+      "type": "richtext"
+    },
+    "cesta_categorias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::categoria.categoria"
+    },
+    "Item_Cesta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item-cesta.item-cesta"
+    }
+  }
+}
